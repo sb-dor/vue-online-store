@@ -4,6 +4,7 @@ import MyHello from './components/MyHello.vue'
 import SendDataFromParent from '@/components/SendDataFromParent.vue'
 import Header from './components/Header.vue'
 import ListCards from '@/components/ListCards.vue'
+import Drawer from '@/components/Drawer.vue'
 </script>
 
 <template>
@@ -17,7 +18,7 @@ import ListCards from '@/components/ListCards.vue'
     </SendDataFromParent>
   </div> -->
   <!-- <SendDataFromParent title="Кроссовки Nike" :price="9500" :is-added="true" /> -->
-
+  <Drawer />
   <div class="bg-white w-4/5 m-auto rounded shadow-xl mt-10">
     <Header />
     <div class="pl-8">
